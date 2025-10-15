@@ -4,3 +4,8 @@
     text-align: center;
     background-color: rgb(228, 209, 38);
 }
+.pokemon-card img {
+    width: 250px;
+    height: 250px;
+    background-color: lab(80.3% -29.95 13.52);
+}
