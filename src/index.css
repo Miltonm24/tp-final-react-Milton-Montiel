@@ -3,8 +3,8 @@
 }
 
 body{
-    background-image: url("fondo.png");
-    background-size: contain;
+    background-size: cover;
+        background-image: url("https://img.freepik.com/vector-gratis/efecto-zoom-fondo-gradiente_23-2149722799.jpg");
 }
 
 button {
