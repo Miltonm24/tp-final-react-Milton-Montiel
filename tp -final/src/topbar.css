@@ -1,0 +1,27 @@
+.topbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.topbar .brand {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.topbar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.topbar nav a:hover {
+    text-decoration: underline;
+}

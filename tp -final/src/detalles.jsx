@@ -25,12 +25,10 @@ export function Detalles() {
     if (!pokemon) return <div>No lo encontre jeje</div>;
 
     return (
-        <div className="container mt-5">
-            {/* Card de Bootstrap para mostrar características bocaaa */}
+        <div className="m-2 pokemon-card" style={{ width: '25rem' }}>
             <div
-                className="card mx-auto"
+                className="card"
                 style={{
-                    maxWidth: "400px",
                     background: "#002157",
                     color: "#FFD100",
                     border: "3px solid #FFD100"
@@ -51,7 +49,7 @@ export function Detalles() {
                         <strong>Tipos:</strong>{" "}
                         {pokemon.types.map(t => t.type.name).join(", ")}
                     </p>
-                    {/* Botón para volver al listado */}
+
                     <button
                         className="btn mt-3"
                         style={{
